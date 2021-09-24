@@ -1,0 +1,24 @@
+.header {
+    background-color: $primary;
+}
+
+.logo {
+    width: 120px;
+    padding: 10px;
+}
+
+.nav-link--boton {
+    color: $secondary;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-link--boton__search {
+    color: $secondary;
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration: none;
+    padding: .5rem;
+}

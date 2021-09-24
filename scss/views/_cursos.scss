@@ -1,0 +1,12 @@
+.card__ubicacion {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.p__curso {
+    color: white;
+}
+
+.card__ubicacion__boton {
+    font-size: 1.3rem;
+}

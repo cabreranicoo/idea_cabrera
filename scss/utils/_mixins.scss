@@ -1,0 +1,12 @@
+@mixin estilo($tono, $rem) {
+    color: $tono;
+    font-size: $rem;
+}
+
+@mixin grid($display, $columna, $fila, $padding, $gap) {
+    display: $display;
+    grid-template-columns: $columna;
+    grid-auto-rows: $fila;
+    padding: $padding;
+    gap: $gap;
+}

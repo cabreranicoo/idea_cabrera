@@ -1,0 +1,22 @@
+.index__contenedor {
+    @include grid(grid, repeat(4, 1fr), 250px, 5px, 5px);
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    &__item {
+        &--estirada {
+            grid-row-start: span 2;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .index__contenedor {
+        @include grid(grid, repeat(2, 1fr), 250px, 5px, 5px);
+    }
+    .index__contenedor__item--estirada {
+        grid-row-start: span 1;
+    }
+}

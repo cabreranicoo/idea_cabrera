@@ -1,0 +1,12 @@
+.subtitulo__centrado {
+    text-align: $centrado;
+}
+
+@media (max-width:768px) {
+    .subtitulo__centrado__h2 {
+        font-size: $texth2mediaqueries;
+    }
+    .subtitulo__centrado__p {
+        font-size: $textpmediaqueries;
+    }
+}

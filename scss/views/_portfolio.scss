@@ -1,0 +1,48 @@
+    .card__ubicacion__portfolio {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    @media (max-width:768px) {
+        .card__ubicacion__portfolio {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    .subtitulo__centrado__testimonio {
+        margin: 2rem 0;
+    }
+    
+    .espacio__testimonio {
+        padding: 1.5rem;
+    }
+    
+    .comentario {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        margin: 2rem auto;
+        gap: 1rem;
+        &__item {
+            background-color: $primary;
+            display: grid;
+            width: auto;
+            height: 200px;
+            text-align: $centrado;
+            place-items: $centrado;
+        }
+        &__texto {
+            font-style: italic;
+            padding: 1rem;
+        }
+    }
+    
+    @media (max-width:768px) {
+        .comentario {
+            display: grid;
+            grid-template-columns: auto;
+            margin: 2rem auto;
+            gap: 1rem;
+        }
+    }

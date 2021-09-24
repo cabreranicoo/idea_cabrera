@@ -1,0 +1,27 @@
+/*IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Poppins:wght@200;300;400;500&display=swap');
+
+/* VARIABLES */
+
+@import "./utils/variables";
+
+/* GLOBALS */
+
+@import "./utils/normalize";
+@import "./utils/usoscompartidos";
+@import "./utils/mixins";
+@import "./utils/globales";
+
+/* PARTIALS */
+
+@import "./partials/header";
+@import "./partials/footer";
+
+/* VIEWS */
+
+@import "./views/home";
+@import "./views/quienesSomos";
+@import "./views/portfolio";
+@import "./views/cursos";
+@import "./views/contacto";

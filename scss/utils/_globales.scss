@@ -1,0 +1,32 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+h1 {
+    @include estilo($secondary, $texth1);
+    text-align: $centrado;
+}
+
+h2 {
+    @include estilo($third, $texth2)
+}
+
+h3 {
+    @include estilo ($white, $texth3)
+}
+
+p {
+    @include estilo ($third, $textp)
+}
+
+label {
+    @include estilo ($secondary, $textlabel)
+}
+
+footer {
+    color: $secondary;
+    text-align: $centrado;
+    padding: 1rem;
+    margin-top: 1rem;
+}
