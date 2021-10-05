@@ -190,3 +190,25 @@ footer {
 
 .espaciado-sm {
   margin-top: 1rem; }
+
+.contenido__404 {
+  background-image: url(../../public/img/404.img/lilly-rum-eE4YBIxSP60-unsplash.jpg);
+  height: 70rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 2rem; }
+  .contenido__404__titulo {
+    padding-top: 4rem; }
+  .contenido__404__texto {
+    text-align: center;
+    font-style: italic;
+    color: black; }
+  .contenido__404__boton {
+    display: flex;
+    justify-content: center; }
+    .contenido__404__boton__enlace {
+      text-decoration: none;
+      color: #28457a;
+      font-size: 1.5rem;
+      font-style: italic; }
