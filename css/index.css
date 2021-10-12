@@ -104,8 +104,7 @@ footer {
   align-items: center; }
   .contenedor__imagen__img {
     width: auto;
-    height: 550px;
-    padding-right: 4rem; }
+    height: 450px; }
   .contenedor__texto {
     text-align: center;
     padding: 0 2rem; }
